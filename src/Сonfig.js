@@ -1,5 +1,5 @@
 const API_KEY = "ea3993f8"
-export const API_URL = `http://www.omdbapi.com/?apikey=${API_KEY}`;
+export const API_URL = `https://www.omdbapi.com/?apikey=${API_KEY}`;
 export const DEFAULT_MOVIE_FOR_SEARCH = "batman";
 export const DEFAULT_TYPE_SEARCH = 'all';
 

@@ -41,7 +41,6 @@ export const Card__Title = styled.p`
 `
 export const Card__Img = styled.img`
   display:inline-block;
-  min-height:300px;
   margin:0 auto;
   width:100%;
   margin-bottom:20px;

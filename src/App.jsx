@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import { createStore } from "redux";
 import { Provider } from "react-redux";
 
@@ -11,7 +10,7 @@ import * as s from "./App.styled";
 //Layout
 import Header from "./layout/Header/Header";
 import MainView from "./layout/MainView/MainView";
-import { Sidebar } from "./layout/Sidebar/Sidebar";
+import Sidebar from "./layout/Sidebar/Sidebar";
 import Footer from "./layout/Footer/Footer";
 import { BrowserRouter as Router } from "react-router-dom";
 

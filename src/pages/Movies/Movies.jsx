@@ -20,7 +20,6 @@ function Movies() {
 
   //Load movies
   useEffect(() => {
-    console.log("type" + DEFAULT_TYPE_SEARCH);
     getAllMoviesByName(searchMovie, typeSearch).then((data) => {
       setMovies(data.Search);
       setLoading(false);
@@ -29,7 +28,6 @@ function Movies() {
 
   return (
     <s.Movies>
-      {console.log("type" + DEFAULT_TYPE_SEARCH)}
       <Search
         setLoading={setLoading}
         setSearchMovie={setSearchMovie}

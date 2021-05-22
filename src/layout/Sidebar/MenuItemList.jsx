@@ -1,11 +1,11 @@
 import * as s from "./styles/MenuItemList.styles";
 import MenuItem from "./MenuItem";
 
-export function MenuItemList(props) {
+function MenuItemList(props) {
   const {
     menuItemList = [],
     selectedItemTitle = "",
-    setSelectedItemTitel = "",
+    setSelectedItemTitel = Function.prototype,
   } = props;
 
   return (
@@ -21,4 +21,5 @@ export function MenuItemList(props) {
     </s.MenuItemList>
   );
 }
+
 export default MenuItemList;

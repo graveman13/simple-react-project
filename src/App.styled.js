@@ -9,6 +9,7 @@ export const App = styled.div`
      justify-content: flex-start;
      align-items: stretch;
      min-height:100vh;
+     overflow: hidden;
 
     @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
          display: table;
